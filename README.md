@@ -1,5 +1,5 @@
 # My data science projecs
-From the [Skillfactory Data Science course]()
+From the [Skillfactory Data Science course](https://cat.2035.university/rall/course/12234/?_ga=2.145831668.1135100999.1676261259-1928843576.1663994200)
 
 # Проекты
 
@@ -35,7 +35,7 @@ From the [Skillfactory Data Science course]()
 - Учимся писать хороший код на Python
 
 ### Краткая информация о данных
-- .....
+- Компьютер загадывает число и сам его угадывает 
 
 :arrow_up:[к оглавлению]()
 
