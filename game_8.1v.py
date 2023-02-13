@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def random_predict(number: int = 1) -> int:
     
     count = 0
@@ -19,7 +18,6 @@ def random_predict(number: int = 1) -> int:
             predict_current += int((max1 - min1) // 2)
     return count
 
-
 def score_game(random_predict, size=20) -> int:
     count_ls = []
     random_array = np.random.randint(1, 101, size) 
@@ -28,8 +26,7 @@ def score_game(random_predict, size=20) -> int:
  
     print(f'Среднее число попыток {int(np.mean(count_ls))}') 
     print(f'Максимальное количество попыток {max(count_ls)}') 
-    print(f'Минимальное количество попыток {min(count_ls)}') 
-    
+    print(f'Минимальное количество попыток {min(count_ls)}')     
     
 if __name__ == "__main__":
     # RUN
