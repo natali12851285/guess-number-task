@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def random_predict(number: int = 1) -> int:
     
     count = 0
@@ -26,7 +27,8 @@ def score_game(random_predict, size=20) -> int:
  
     print(f'Среднее число попыток {int(np.mean(count_ls))}') 
     print(f'Максимальное количество попыток {max(count_ls)}') 
-    print(f'Минимальное количество попыток {min(count_ls)}')     
+    print(f'Минимальное количество попыток {min(count_ls)}')   
+      
     
 if __name__ == "__main__":
     # RUN
